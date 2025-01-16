@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root {
+  --text-color: #fff;
+  --btn-color: #ab706a;
+  --main-title: #c69881;
+  --primary-bg-color: #fff;
+  --secondary-bg-color: #c69881;
+  --section-padding: 70px;
+}
 html {
   font-size: 10px;
   scroll-behavior: smooth;
@@ -11,6 +19,13 @@ body {
   color: var(--text-color);
   background-color: var(--primary-bg-color);
   font-family: Arial, Helvetica, sans-serif;
+}
+.dark-theme {
+  --text-color: #000;
+  --primary-bg-color: #000;
+}
+section {
+  padding: var(--section-padding) 0;
 }
 .container {
   margin: auto;
